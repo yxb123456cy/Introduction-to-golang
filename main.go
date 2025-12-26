@@ -67,5 +67,8 @@ func main() {
 	fmt.Println(AGE)
 	constants.GOLANG_VERSION = "3.6"
 	fmt.Printf("当前使用的golangSDK版本为:%s", constants.GOLANG_VERSION)
+	var stack string
+	fmt.Scan(&stack)
+	fmt.Printf("你的技术栈为: %s", stack)
 
 }
